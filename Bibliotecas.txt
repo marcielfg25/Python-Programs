@@ -1,0 +1,23 @@
+Após instalado python e o tesseract
+executar no CMD os seguintes comandos:
+
+pip install sys
+pip install os
+pip install pytesseract
+pip install fitz
+pip install PIL
+pip install PyQt5
+
+
+
+também dentro do codigo alterar a linha 
+
+# Configurando o caminho do Tesseract executável
+        pytesseract.pytesseract.tesseract_cmd = r'C:\Users\nomedousuario\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+		
+Com o caminho do arquivo .exe do tesseract instalado
+
+
+
+
+
